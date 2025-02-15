@@ -24,6 +24,7 @@ public class Dashboard {
 		WebElement acttext = driver.findElement(By.xpath("*//span[@class='title-text second']"));
 		String exptext ="Unlocking Digital Performance.";
 		Assert.assertEquals(acttext,exptext);
+		driver.quit();
 		
 		
 	}
